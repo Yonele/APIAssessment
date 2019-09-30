@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [API Assessment]">
+  <test name="RestAssuredAPITest(failed)">
+    <classes>
+      <class name="apiAssessment">
+        <methods>
+          <include name="shouldReturnOnlyListOfSpecifiedBreed"/>
+          <include name="shouldReturnAllBreeds"/>
+          <include name="shouldContainRetriever"/>
+          <include name="mustReturnRandomBreedImage"/>
+        </methods>
+      </class> <!-- apiAssessment -->
+    </classes>
+  </test> <!-- RestAssuredAPITest(failed) -->
+</suite> <!-- Failed suite [API Assessment] -->
